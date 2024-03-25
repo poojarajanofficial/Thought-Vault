@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+ }
+ body{
+     
+    background-image: url(cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:  "Aladin", system-ui;
+ }
+ h1{
+    font-size: 40px;
+ }
+ h5{
+    letter-spacing: 6px;
+    line-height: 30px;
+    color: rgb(24, 3, 61);
+    padding: 10px;
+    font-weight: bold;
+ 
+ }
+ .navbar{
+      background-color: #fd6569;
+      padding: 10px;
+      text-align: center;
+ 
+ }
+ .thoughtcontainer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-radius:30px;
+    margin-left: 20px;
+ margin-top: 20px;
+ display: inline-block;
+ vertical-align: top;
+ }
+ h4{
+    margin-left: 330px;
+    margin-top: 20px;
+    color: rgb(178, 115, 238);
+ }
+ .thoughtcontainer button{
+    background-color: green;
+    color: black;
+    padding: 5px 20px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .overlay{
+    background-color: black;
+ width: 100vw;
+ height: 100vh;
+ position: absolute;
+ top: 0;
+ left: 0%;
+ opacity: 0.8;
+ z-index: 1;
+ display: none;
+ }
+ .popupbox{
+    background-color: #fd6569;
+    width: 30%;
+    height: 35%;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    margin-left: 190px;
+    display: none;
+ 
+ }
+ 
+ h2{
+    text-align: center;
+ }
+ #thoughtinput{
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    font-size: 18px;
+   font-weight: bold;
+    color: black;
+   border: 3px solid black;
+   
+ }
+ 
+ #addthought{
+ 
+ background-color: rgb(36, 34, 34);
+ color: white;
+ padding: 5px 20px;
+ width: 70px;
+ height: 35px;
+ border: none;
+ border-radius: 50px;
+ margin-left: 50px;
+ margin-top: 15px;
+ cursor: pointer;
+ }
+  #addthought:hover{
+  background-color: aqua;
+  transition: all 0.2s linear;
+  color: black;
+  font-weight: bold;
+  }
+  
+  #cancelpopup{
+  background-color: rgb(36, 34, 34);
+ color: white;
+ padding: 5px 20px;
+ border: none;
+ border-radius: 50px;
+ margin-left: 150px;
+ margin-top: 15px;
+ width: 90px;
+ height: 30px; 
+ cursor: pointer;
+  }
+ #cancelpopup:hover{
+ 
+ background-color: red;
+  transition: all 0.2s linear;
+  color: black;
+  font-weight: bold;
+ 
+ }
+ 
+ h3{
+ 
+ padding-left: 20%;
+ line-height: 30px;
+ }
+ .btn1{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 50px;
+    border: 3px solid black;
+    background-color: grey;
+    border-radius: 20px;
+         
+ }
+ .btn1:hover{
+    background: linear-gradient(red,black);
+    color: white;  
+    cursor: pointer;
+    transition: all 0.2s linear;
+ }
+ .btn2{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30px;
+    border: 3px solid black;
+    background-color: grey;
+    border-radius: 20px;
+ }
+ 
+ .btn2:hover{
+    background: linear-gradient(red,black);
+    color: white;  
+    cursor: pointer;
+    transition: all 0.2s linear;
+ }

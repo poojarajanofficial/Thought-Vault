@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ </head>
+ <body>
+    
+   <div class="navbar">
+    <h1>THOUGHT VAULT</h1>
+    <h5>"UNLOCK THE POWER OF YOUR THOUGHTS"</h5>
+   </div> 
+<button class="btn1" onclick="show()">Add + </button> 
+<div class="container">
+<div class="thoughtcontainer">
+
+    <h3> "If you are ready to fly</h3>
+    <h3>Wings will spread automatically</h3>
+    <h3>If you are ready to work hard</h3>
+    <h3>Your skills will blossom naturally"</h3>
+    <h4>- POOJA</h4>
+    <button onclick="deleteitem(event)">Delete</button>
+
+</div>
+</div>
+<div class="overlay"></div>
+<div class="popupbox">
+ <h2>"Add Your Thought"</h2>
+ <form>
+    <textarea placeholder="Text Here" id="thoughtinput"></textarea>
+   <button id="addthought">ADD</button>
+   <button id="cancelpopup">CANCEL</button> 
+</form>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+ </body>
+ </html>
